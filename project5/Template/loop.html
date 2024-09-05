@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url 'condition' %}">go to condition</a>
+    <center>
+        <h1>Looping statement</h1>
+        {% for nm in name %}
+        <h1>{{nm}}</h1>
+        {% endfor %}
+    </center>
+</body>
+</html>
